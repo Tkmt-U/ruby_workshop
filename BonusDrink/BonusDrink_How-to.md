@@ -46,6 +46,7 @@
   > puts drink_number(3)      #=>   4<br>
   > puts drink_number(11)     #=>   16<br>
   > puts drink_number(100)    #=>  149<br>
+
   **それでは、実装していきましょう！**
 
 ## 別解
