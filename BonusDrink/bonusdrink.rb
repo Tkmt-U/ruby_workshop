@@ -1,10 +1,6 @@
-https://qiita.com/u_nayama/items/82edf9500c0cdfc263f7
-http://yucatio.hatenablog.com/entry/2019/05/07/225412
+# https://qiita.com/u_nayama/items/82edf9500c0cdfc263f7
+# http://yucatio.hatenablog.com/entry/2019/05/07/225412
 
-# 飲める数が3未満だと、飲める数 = 購入した数
-# 飲める数 = 購入した数 + 貰える数
-# 貰える数 = (購入した数 % 3) + (購入した数 / 3)
-#
 # 0 0
 # 1 1
 # 2 2
@@ -15,10 +11,8 @@ http://yucatio.hatenablog.com/entry/2019/05/07/225412
 # 8 11
 # 9 13
 # 10 14
-# 11 16
 
-# 飲める数 = 購入した数 + 貰える数
-# 飲める数 = (購入した数 - 3) + 1 購入した数が3未満になるまで繰り返す
+# 11 16
 
 
 def drink_number(buying_drink)
