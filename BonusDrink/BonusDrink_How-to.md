@@ -36,13 +36,18 @@
     トータルで飲める数 = 交換した数 + 交換できなかった数(購入した数 - 3を繰り返して余った数)<br>
       購入した数が3未満になるまで空き瓶交換の処理は繰り返す。<br>
 
-- 繰り返し処理のおさらい
+- 繰り返し処理のおさらい<br>
 
-- コーディングを行う
+- コーディングを行う<br>
   上記の過程で文字起こししたロジックを参考に、コードを書いていきましょう。<br>
   'drink_number'というメソッドを定義し、以下の入出力になるようにしてください。<br>
   > puts drink_number(0)      #=>   0<br>
-  > puts drink_number(1)      #=>   1
-  > puts drink_number(3)      #=>   4
-  > puts drink_number(11)     #=>   16
-  > puts drink_number(100)    #=>  149
+  > puts drink_number(1)      #=>   1<br>
+  > puts drink_number(3)      #=>   4<br>
+  > puts drink_number(11)     #=>   16<br>
+  > puts drink_number(100)    #=>  149<br>
+  **それでは、実装していきましょう！**
+
+## 別解
+- https://qiita.com/u_nayama/items/82edf9500c0cdfc263f7
+- http://yucatio.hatenablog.com/entry/2019/05/07/225412
