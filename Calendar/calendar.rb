@@ -16,8 +16,6 @@ day_of_week = day_of_week.join(' ')
 puts today.strftime('%a')
 puts today.next_day(n = 6).strftime('%a')
 start_of_month = Date.new(today.year, today.mon, 1)
-puts start_of_month + 1
-puts start_of_month.next_day(n = 1)
 end_of_month = Date.new(today.year, today.mon, -1)
 puts end_of_month.wday
 
@@ -31,7 +29,7 @@ end
 
 puts today.strftime('%B') + " " + today.strftime('%Y')
 puts day_of_week
-days.each_slice(7) { |week|
+days.each_slice(7) do |week|
   puts week.join(' ')
   puts "\n" #見栄えを良くするための改行
-}
+end
