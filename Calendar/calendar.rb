@@ -18,11 +18,17 @@ end_of_month = Date.new(today.year, today.mon, -1)
 
 days = Array.new(start_of_month.wday, '  ')
 
-while start_of_month <= end_of_month
-  day = start_of_month.strftime('%e')
+(start_of_month..end_of_month).each do |day|
+  day = day.strftime('%e')
   days << day
-  start_of_month += 1
 end
+
+# 以下の処理でもよい
+# while start_of_month <= end_of_month
+#   day = start_of_month.strftime('%e')
+#   days << day
+#   start_of_month += 1
+# end
 
 puts today.strftime('%B') + " " + today.strftime('%Y')
 puts day_of_week
