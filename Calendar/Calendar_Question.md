@@ -8,6 +8,6 @@ Date クラスを使って、今月の１日と月末の日付と曜日を求め
  Su Mo Tu We Th Fr Sa<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 &nbsp;&nbsp;2 &nbsp;&nbsp;3 &nbsp;&nbsp;4 &nbsp;&nbsp;5 &nbsp;&nbsp;6<br>
 &nbsp;&nbsp;7 &nbsp;&nbsp;8 &nbsp;&nbsp;9 &nbsp;10 &nbsp;11 &nbsp;12 &nbsp;13<br>
-14 15 &nbsp;16 &nbsp;17 &nbsp;18 &nbsp;19 &nbsp;20<br>
+14 15 &nbsp;16 17 &nbsp;18 &nbsp;19 &nbsp;20<br>
 21 22 23 24 25 26 27<br>
 28 29 30
