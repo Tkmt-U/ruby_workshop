@@ -14,6 +14,6 @@
     sum += n
   end
 ```
-| numbers |
+||>|numbers |
 | ------- |
 |1||2|
