@@ -13,11 +13,8 @@ today = Date.today
 day_of_week = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 day_of_week = day_of_week.join(' ')
 
-puts today.strftime('%a')
-puts today.next_day(n = 6).strftime('%a')
 start_of_month = Date.new(today.year, today.mon, 1)
 end_of_month = Date.new(today.year, today.mon, -1)
-puts end_of_month.wday
 
 days = Array.new(start_of_month.wday, '  ')
 
