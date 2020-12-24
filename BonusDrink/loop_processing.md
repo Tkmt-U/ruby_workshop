@@ -49,8 +49,8 @@ while 条件式 do 処理 end
   end
 ```
 条件式 sumが5未満か &nbsp; --> &nbsp; Falseだと処理を終える<br>
-&nbsp;| &nbsp; 繰り返す &nbsp; ↑ <br>
-↓ True &nbsp;| <br>
+&nbsp;| Trueだと ↑ <br>
+↓ 繰り返す &nbsp;| <br>
 sum = 1 + sum<br>
 
 このような処理をしている。<br>
