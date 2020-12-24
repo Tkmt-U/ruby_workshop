@@ -12,35 +12,35 @@
 require 'date' # 最初にrequireする
 
 # 今日
-today = Date.today
-today #=> 2020-12-24
+  today = Date.today
+  today #=> 2020-12-24
 
 # 今年
-today.year #=> 2020
-today.strftime('%Y') #=> "2020"
+  today.year #=> 2020
+  today.strftime('%Y') #=> "2020"
 
 # 今月
-today.mon #=> 12
-today.strftime('%m') #=> "12"
-today.strftime('%B') #=> "December"
-today.strftime('%b') #=> "Dec"
+  today.mon #=> 12
+  today.strftime('%m') #=> "12"
+  today.strftime('%B') #=> "December"
+  today.strftime('%b') #=> "Dec"
 
 # 今日の曜日
-today.wday #=> 4
-  # 曜日を数字で返す。日曜日が0、そこから1ずつ増える。
-today.strftime('%A') #=> "Thursday"
-today.strftime('%a') #=> "Thu"
+  today.wday #=> 4
+    # 曜日を数字で返す。日曜日が0、そこから1ずつ増える。
+  today.strftime('%A') #=> "Thursday"
+  today.strftime('%a') #=> "Thu"
 
 # 今日の日付
-today.day #=> 24
-today.strftime('%e') #=> "24"
+  today.day #=> 24
+  today.strftime('%e') #=> "24"
 
 # 明日
-today + 1 #=> 2020-12-25
-today.next_day(n = 1) #=> 2020-12-25
+  today + 1 #=> 2020-12-25
+  today.next_day(n = 1) #=> 2020-12-25
 
 # 新しく日を作る
-Date.new(today.year, 1, 1) #=> 2020-01-01
+  Date.new(today.year, 1, 1) #=> 2020-01-01
 
 ```
 
