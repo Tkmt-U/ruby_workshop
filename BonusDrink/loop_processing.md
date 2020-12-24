@@ -49,7 +49,7 @@ while 条件式 do 処理 end
   end
 ```
 条件式 sumが5未満か  -->  <br>
-&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↑ 繰り返す<br>
+&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↑ 繰り返す<br>
 &nbsp;| 条件が <br>
 ↓ Trueの場合 | <br>
 sum = 1 + sum<br>
