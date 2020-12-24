@@ -25,3 +25,18 @@ sum = n + sum<br>
   sum = 0
   numbers.each {|n| sum += n}
 ```
+
+## while文
+```
+while 条件式
+  処理
+end
+```
+もしくは
+```
+while 条件式 do 処理 end
+```
+もしくは
+```
+処理 while 条件式
+```
