@@ -1,6 +1,6 @@
 # 繰り返し処理
 
-## each文<br>
+## each文
 ```
   配列など.each do |ブロック引数|
     処理
@@ -14,5 +14,14 @@
     sum += n
   end
 ```
-配列 numbers
-|1||2||3||4|  -->  |n|
+配列 numbers<br>
+|1||2||3||4|  -->  |n|<br>
+sum = n + sum<br>
+
+このような処理をしている。<br>
+ちなみに、"do...end"は、"{...}"と書くこともできる。
+```
+  numbers = [1, 2, 3, 4]
+  sum = 0
+  numbers.each {|n| sum += n}
+```
