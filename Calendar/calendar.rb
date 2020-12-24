@@ -6,8 +6,6 @@
 # dates = (1..31).to_a
 # dates = [*1..31]
 
-
-
 require 'date'
 
 today = Date.today
