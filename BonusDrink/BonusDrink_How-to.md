@@ -42,11 +42,11 @@
 - コーディングを行う<br>
   上記の過程で文字起こししたロジックを参考に、コードを書いていきましょう。<br>
   'drink_number'というメソッドを定義し、以下の入出力になるようにしてください。<br>
-  > puts drink_number(0)      #=>   0<br>
-  > puts drink_number(1)      #=>   1<br>
-  > puts drink_number(3)      #=>   4<br>
-  > puts drink_number(11)     #=>   16<br>
-  > puts drink_number(100)    #=>  149<br>
+  > drink_number(0)      #=>   0<br>
+  > drink_number(1)      #=>   1<br>
+  > drink_number(3)      #=>   4<br>
+  > drink_number(11)     #=>   16<br>
+  > drink_number(100)    #=>  149<br>
 
   **それでは、実装していきましょう！**
 
